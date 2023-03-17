@@ -17,7 +17,7 @@ In the Ubuntu terminal, follow the steps below to run and test the API:
 <br>
 <br>
 ## Step 4
-Download the `app.py` file and paste it in the folder of your choice.
+Download the [app.py](https://github.com/clebersonp/simple-rest-api-python/blob/main/app.py) file and paste it in the folder of your choice.
 <br>
 <br>
 After that, run the following statement:
