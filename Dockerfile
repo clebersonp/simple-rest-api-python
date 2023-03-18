@@ -1,3 +1,4 @@
+# gerar image: docker build . -t clebersonp/simple-rest-api-python
 FROM ubuntu
 
 RUN apt-get update
