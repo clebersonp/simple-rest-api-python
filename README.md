@@ -39,3 +39,30 @@ On the browser type the follow url: `http://localhost:8000?name=Your name` and p
 You will see the result below:
 <br>
 `{"message":"Hello Your name!"}`
+<br>
+<br>
+# Bypassing all annoying installs with a docker image
+In the Ubuntu terminal, follow the steps below to download and run the docker image as a container:
+<br>
+## Step 1
+`user:/$ docker pull clebersonp/simple-rest-api-python`
+<br>
+<br>
+## Step 2
+`user:/$ docker run -p 8000:8000 -d clebersonp/simple-rest-api-python`
+<br>
+<br>
+## Step 3
+Open the browser and type the url: `http://localhost:8000` and press enter.
+<br>
+You will see the result below:
+<br>
+`{"message":"Hello World!"}`
+<br>
+<br>
+## Step 4
+On the browser type the follow url: `http://localhost:8000?name=Your name` and press enter.
+<br>
+You will see the result below:
+<br>
+`{"message":"Hello Your name!"}`
